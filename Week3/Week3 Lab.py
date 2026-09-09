@@ -4,9 +4,9 @@ print(x,y)
 
 # #You can still do math with both a float and integer
 
-x=input("Give me a whole number:")
-y=input("Now give me a number with a decimal:")
-print(x,y)
+x=int(input("Give me a whole number:"))
+y=float(input("Now give me a number with a decimal:"))
+print(x+y)
 
 # # A string is a data type
 
