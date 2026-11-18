@@ -13,16 +13,16 @@
 # Creates the file if it doesn't exist 
 # Adds new text to the file, does not delete existing data
 
-#with open("FolderName/FileName", "Mode")
-# with open("Week9/stuff.txt", "r") as file:
-#     contents=file.read()
-#     print(contents)
+with open("FolderName/FileName", "Mode")
+with open("Week9/stuff.txt", "r") as file:
+    contents=file.read()
+    print(contents)
 
 #I want to overwrite the content of stuff.txt
 
-# with open("Week9/stuff.txt", "w") as file:
-#     file.write("Hello!\nThis Line appears underneath")
-#Once we leave the indentation block the file automatically closes
+with open("Week9/stuff.txt", "w") as file:
+    file.write("Hello!\nThis Line appears underneath")
+
 
 #Reading from a file
 #Method A: Read the whole file at once
